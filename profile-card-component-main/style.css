@@ -1,0 +1,85 @@
+html,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans';
+    font-size: 12px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* GRID LAYOUT */
+body {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr auto;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.mainbox {
+  width: 350px;
+  height: 350px;
+  display: grid;
+  grid-template-rows: 1fr 10% 1fr 80px;
+  place-self: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.bg-blue {
+  display: flex;
+}
+
+.bg-blue img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+  border-radius: 10px 10px 0 0;
+}
+
+.profile-img {
+  place-self: center;
+  margin: -10px auto 20px auto;
+}
+.profile-img img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: white solid 5px;  
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto 10px auto;
+}
+
+.profile h2,
+span,
+footer h2{
+  font-size: 18px;
+}
+
+.profile span, 
+p {
+  color: hsl(0, 0%, 59%);
+  font-weight: normal;
+}
+
+.profile p {
+  font-size: 15px;
+}
+
+footer {
+  border-top: rgb(240 240 240) solid 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  font-size: 18px;
+}
+
+
