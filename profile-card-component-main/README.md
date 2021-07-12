@@ -26,7 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ![Mobile Design](/profile-card-component-main/design/mobile-ss.png)
 
-![Desktop Design](/profile-card-component-main/design/desktop-ss.png)
+![Desktop Design](/profile-card-component-main/design/desktop-SS.png)
 
 ### Links
 
@@ -95,4 +95,4 @@ Grid layout and media queries are quite challenging to understand, and I am plan
 
 ## Acknowledgments
 
-I really appreciate the community in frontendmentor, though my question has been answered already by many of them, I just want to say thank you for those people extending there help to a neophyte to this industry - like me. Thank you so much!
+I really appreciate the community in frontendmentor, though my question has been answered already by many of them, I just want to say thank you for those people extending there help to a neophyte to this industry - like me. Thank you so much!:smiley: :wink:
