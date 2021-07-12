@@ -10,25 +10,25 @@ html,
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 /* GRID LAYOUT */
 body {
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr auto;
+  grid-template-rows: 1fr 2fr .4fr .6fr;
   height: 100vh;
+  background: url(/profile-card-component-main/images/bg-pattern-top.svg) bottom 45vh right 50vw,
+  url(/profile-card-component-main/images/bg-pattern-bottom.svg) top 45vh left 50vw;
   background-color: hsl(185, 75%, 39%);
+  background-repeat: no-repeat;
 }
 
-/* .images {
-  display: absolute;
-} */
-
 .mainbox {
-  width: 350px;
-  height: 350px;
+  width: 330px;
+  height: 330px;
   display: grid;
   grid-template-rows: 1fr 10% 1fr 80px;
   place-self: center;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #fff;
   box-shadow: 0px 0px 44px -14px rgba(45,50,72,0.93);
 -webkit-box-shadow: 0px 0px 44px -14px rgba(45,50,72,0.93);
@@ -43,13 +43,14 @@ body {
   width: 100%;
   max-height: 100%;
   object-fit: fill;
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 .profile-img {
   place-self: center;
   margin: -10px auto 20px auto;
 }
+
 .profile-img img{
   height: 100px;
   width: 100px;
@@ -77,6 +78,10 @@ p {
   font-weight: normal;
 }
 
+.profile span {
+  margin-left: 5px;
+}
+
 .profile p {
   font-size: 1rem;
 }
@@ -98,5 +103,34 @@ footer p {
   margin-top: .5rem;
 }
 
+.attribution p {
+  font-size: 11px; text-align: center;
+  color: #fff;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+
+
+/* MOBILE */
+@media (max-width: 375px) {
+  .mainbox {
+    height: 350px;
+    width: 320px;
+  }
+
+  body {
+    display: grid;
+    grid-template-rows: 1fr 2fr .4fr .6fr;
+    height: 100vh;
+    background: url(/profile-card-component-main/images/bg-pattern-top.svg) bottom 40vh right 40vw,
+    url(/profile-card-component-main/images/bg-pattern-bottom.svg) top 40vh left 40vw;
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+  }
+}
 
  
