@@ -126,8 +126,8 @@ footer p {
     display: grid;
     grid-template-rows: 1fr 2fr .4fr .6fr;
     height: 100vh;
-    background: url(/profile-card-component-main/images/bg-pattern-top.svg) bottom 40vh right 40vw,
-    url(/profile-card-component-main/images/bg-pattern-bottom.svg) top 40vh left 40vw;
+    background: url(../profile-card-component-main/images/bg-pattern-top.svg) bottom 40vh right 40vw,
+    url(../profile-card-component-main/images/bg-pattern-bottom.svg) top 40vh left 40vw;
     background-color: hsl(185, 75%, 39%);
     background-repeat: no-repeat;
   }
