@@ -24,14 +24,14 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Mobile Design](/profile-card-component-main/design/mobile-ss.png)
+![Mobile Design](../profile-card-component-main/design/mobile-ss.png)
 
-![Desktop Design](/profile-card-component-main/design/desktop-SS.png)
+![Desktop Design](../profile-card-component-main/design/desktop-SS.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/radeau/frontend-mentor-challenges/tree/master/profile-card-component-main](https://github.com/radeau/frontend-mentor-challenges/tree/master/profile-card-component-main) 
+- Live Site URL: [https://radeau.github.io/frontend-mentor-challenges/profile-card-component-main/](https://radeau.github.io/frontend-mentor-challenges/profile-card-component-main/)
 
 ## My process
 
