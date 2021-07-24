@@ -40,15 +40,55 @@ body {
     font-weight: 600;
 }
 
-.buyer {
-    display: grid;
-}
 .bg-violet {
-
+    display: grid;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: hsl(300, 24%, 96%);
+    height: 250px;
 }
 
-.attribution {
-    /* border: yellow solid 2px; */
+.bg-violet > p {
+    margin: 38px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0 38px 26px 38px;
+}
+
+.buyer-profile {
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 15px 0 0 10px;
+}
+
+.buyer-profile > p {
+    margin: 0;
+    text-align: left;
+}
+
+.buyer-profile img {
+    border-radius: 50%;
+    margin: 18px;
+    height: 50px;
+    grid-row: 1 / -1;
+}
+
+.buyer-name {
+    padding-top: 28px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ver {
+    grid-column: 2;
+    color: hsl(333, 80%, 67%);
+    font-size: 14px;
+}
+
+.buyer .irene {
+    margin: 20px 0;
 }
 
 .attribution p {
@@ -74,7 +114,6 @@ body {
     }
     
     .rate {
-        /* border: blue solid 2px; */
         display: grid;
         grid-template-columns: 1fx;
         grid-template-rows: 1fx 1fx 1fx;
