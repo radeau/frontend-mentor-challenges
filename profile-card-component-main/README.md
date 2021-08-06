@@ -24,9 +24,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Mobile Design](../profile-card-component-main/design/mobile-ss.png)
-
-![Desktop Design](../profile-card-component-main/design/desktop-SS.png)
+<img src="../profile-card-component-main/design/mobile-ss.png" width="300" height="500">
+<img src="../profile-card-component-main/design/desktop-SS.png">
 
 ### Links
 
