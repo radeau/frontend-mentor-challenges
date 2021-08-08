@@ -16,8 +16,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,14 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="../social-proof-section-master/design/mobile-final.png" width="300" height="500">
+<img src="../social-proof-section-master/design/mobile-final.png" width="160" height="500">
 
 <img src="../social-proof-section-master/design/desktop-final.png"> 
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/radeau/frontend-mentor-challenges/tree/master/social-proof-section-master)
-- Live Site URL: [Live Site](https://radeau.github.io/frontend-mentor-challenges/social-proof-section-master/)
+- Solution URL: [https://github.com/radeau/frontend-mentor-challenges/tree/master/social-proof-section-master](https://github.com/radeau/frontend-mentor-challenges/tree/master/social-proof-section-master)
+- Live Site URL: [https://radeau.github.io/frontend-mentor-challenges/social-proof-section-master/](https://radeau.github.io/frontend-mentor-challenges/social-proof-section-master/)
 
 ## My process
 
