@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
 }
 
 body {
@@ -32,7 +33,7 @@ body {
       "card-img card-img card-img"
       "article-content article-content article-content";
     width: 30%;
-    height: 67%;
+    height: 80%;
     margin: 0 auto;
     min-width: 330px;
     max-width: 30%;
@@ -51,7 +52,7 @@ body {
 .article-content {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
+grid-template-rows: 1fr .5fr 1fr;
 gap: 0px 0px;
 grid-auto-flow: row;
 grid-template-areas:
@@ -79,10 +80,69 @@ height: 70%;
   color: hsl(224, 23%, 55%);
 }
 
-.plan { grid-area: plan; }
+.plan {
+  grid-area: plan;
+  /* border: red solid .1px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  margin: 0 32px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+ 
+.plan .img {
+  /* margin-left: 3rem; */
+  display: flex;
+}
 
-.paymentCncel-btn { grid-area: paymentCncel-btn; }
+.plan .plan-txt {
+  /* border: solid red .1px; */
+  margin-left: 9px;
+}
 
+.annual {
+  font-weight: bold;
+  width: 95px;
+}
+
+.perYear {
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  /* margin: 0 3rem 0 2rem; */
+  font-size: .8rem;
+  margin-left: 1.5rem;
+}
+.paymentCncel-btn { 
+  grid-area: paymentCncel-btn; 
+  /* border: solid green .1px; */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+ }
+
+button {
+  margin: 0 32px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  height: 3em;
+}
+
+.cncel-btn {
+  background-color: transparent;
+}
+
+.pyment-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 0px 10px 17px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 10px 17px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 17px -5px rgba(0,0,0,0.75);
+}
   
 html, body {
 height: 100%;
@@ -114,4 +174,6 @@ margin: 0;
   .order-summary h1 {
     font-size: 1.5rem;
   }
+
+  
 }
