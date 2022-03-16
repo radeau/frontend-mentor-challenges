@@ -3,6 +3,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      Outfit: ["Outfit", "sans-serif"],
+      },
     colors: {
       blue: {
         950: '#14253d',
