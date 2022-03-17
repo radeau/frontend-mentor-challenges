@@ -4,51 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
   <link href="../dist/output.css" rel="stylesheet">
   <title>Frontend Mentor | NFT preview card component</title>
 
 </head>
-<body class="flex h-screen bg-blue-1000 ">
- 
-    <a href="#" class="z-10 bg-blue-1100 hover:bg-blue-1100 hover:bg-opacity-80">
-      
-    </a>
+<body class="flex h-screen bg-blue-1000">
   <div class="container max-w-xs my-auto mx-auto rounded-xl p-6 bg-blue-950 shadow-lg">
-
-      <a href="#" class="hover:bg-blue-1100">
-        <img class="w-full rounded-md" src="../images/image-equilibrium.jpg" alt="Sunset in the mountains">
-      </a>
-
-      <div class="">
-        <div class="font-Outfit text-xl text-white my-3"><a href="#" class="hover:text-blue-1100">Equilibrium #3429</a></div>
-        <p class="font-Outfit text-md font-light text-blue-1050 my-3">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="w-full rounded-md bg-cover bg-center bg-[url('../images/image-equilibrium.jpg')]">
+        <div class="w-full rounded-md bg-blue-1100 opacity-0 hover:opacity-70 transition duration-300 ease-in-out cursor-pointer">
+          <div class="flex justify-center items-center h-72">
+            <img src="../images/icon-view.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="font-Outfit text-2xl text-white my-3"><a href="#" class="hover:text-blue-1100">Equilibrium #3429</a></div>
+      <p class="font-Outfit text-md font-light text-blue-1050 my-3">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="my-2 flex justify-between">
+        <div class="flex items-center">
+          <span class="pr-2">
+            <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+          </span>
+          <span class="font-Outfit font-light text-md text-blue-1100">0.041 ETH</span>
+        </div>
+        <div class="flex items-center">
+          <span class="pr-2">
+            <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+          </span>
+          <span class="font-Outfit font-light text-md text-blue-1050">3 days left</span>
+        </div>
       </div>
 
-      <div class="">
-
-        <div class="my-2 flex justify-between">
-          <div class="flex items-center">
-            <span class="pr-2">
-              <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
-            </span>
-            <span class="font-Outfit font-light text-sm text-blue-1100">0.041 ETH</span>
-          </div>
-          <div class="flex items-center">
-            <span class="pr-2">
-              <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
-            </span>
-            <span class="font-Outfit font-light text-sm text-blue-1050">3 days left</span>
-          </div>
+      <div class="my-3 border-t border-blue-1050 border-opacity-25">
+        <div class="flex items-center my-3">
+          <span class="h-8 w-8 border border-blue-1050 rounded-full"><img src="../images/image-avatar.png" alt="Jules-profile"></span>
+          <span class="font-Outfit font-light text-sm text-blue-1050 pl-3">Creation of <a href="#" class="text-white hover:text-blue-1100">Jules Wyvern</a></span>
         </div>
-
-        <div class="my-3 border-t border-blue-1050 border-opacity-25">
-          <div class="flex items-center my-3">
-            <span class="h-8 w-8 border border-blue-1050 rounded-full"><img src="../images/image-avatar.png" alt="Jules-profile"></span>
-            <span class="font-Outfit font-light text-xs text-blue-1050 pl-3">Creation of <a href="#" class="text-white hover:text-blue-1100">Jules Wyvern</a></span>
-          </div>
-        </div>
-
       </div>
   </div>
  
