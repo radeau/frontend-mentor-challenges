@@ -1,0 +1,14 @@
+/* neutralized margin and padding*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+    width: 50rem;
+    height: 50rem;
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
