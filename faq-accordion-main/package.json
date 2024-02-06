@@ -1,0 +1,14 @@
+{
+  "name": "faq-frontend-mentor",
+  "version": "1.0.0",
+  "description": "![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "radeau",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
