@@ -1,2 +1,7 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$accordion-button-icon: url(/assets/images/icon-plus.svg);
+$accordion-button-active-icon: url(/assets/images/icon-minus.svg);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
