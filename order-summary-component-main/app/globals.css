@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  @font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500, 700, 900;
+    font-display: swap;
+    src: url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+  }
+}
